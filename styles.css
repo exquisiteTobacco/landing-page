@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+.body{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+margin: 0;
+overflow: hidden;
+}
+.header{
+    display: flex;
+    background-color: #1F2937;
+    height: 72px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+.logo{
+    font-size: 24px;
+    font-weight:800;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+ul{
+    list-style-type: none ;
+}
+li{
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+}
+.firstContainer{
+    height: 400px;
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 250px;
+    align-items: start;
+    gap: 10px;
+    
+}
+.image{
+    width: 500px;
+    height: 250px;
+}
+.HeroMainText{
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.SecondText{
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+.signup{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    border: 2px black /* Green */;
+    font-size: 20px;
+    color: #E5E7EB;
+    font-weight: bold;
+    
+}
+button {
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 8px;
+    background-color: #3882f6;
+  }
