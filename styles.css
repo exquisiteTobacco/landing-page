@@ -59,7 +59,7 @@ li{
     gap: 10px;
     
 }
-.image{
+.imageFirst{
     width: 500px;
     height: 250px;
 }
@@ -91,3 +91,120 @@ button {
     border-radius: 8px;
     background-color: #3882f6;
   }
+.secondContainer{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.secondContent
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.imageSecond{
+  height: 170px;
+  width: 170px;
+  border: 2px solid #3882f6;
+  border-radius: 25px;
+}
+.secondMainText{
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937;
+
+}
+.textInfo{
+    max-width: 170px;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 18px;
+}
+.thirdContainer{
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.quoteContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    gap: 20px;
+
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    font-family: 'Roboto', san;
+    color: #1F2937;
+}
+.author{
+    align-self: self-end;
+    font-family: 'Roboto', san;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.lastContainer{
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer{
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adContainer{
+    background-color: #3882f6;
+    width: 1200px;
+    height: 130px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px
+}
+.adTextMain{
+    font-family: 'Roboto', san;
+    font-size: 22px;
+    font-weight: bold;;
+    color: white;
+}
+.adTextSecond{
+    font-family: 'Roboto', san;
+    font-size: 16px;
+    color: white;
+}
+.buttonAd{
+    justify-self: end;
+    margin-left: 200px;
+    font-family: 'Roboto', san;
+    border-color: white;
+    color: white;
+    border:solid;
+    font-size: 18px;
+    font-weight: bold;
+}
+.end{
+    font-family: 'Roboto', san;
+    color: white;
+    font-size: 18px;
+  
+}
